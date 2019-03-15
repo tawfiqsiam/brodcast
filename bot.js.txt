@@ -5,7 +5,7 @@ client.on('message', message => {
     let command = messageArray[0];
     
     
-    if (command === `${prefix}bc`) {
+    if (command === `${{}bc`) {
 			let embed = new Discord.RichEmbed()
                 .setColor('RANDOM')
                 .addField('     **=-=-:: [ Narox ] ::-=-=** ' ,'╔[❖═════════════════════❖]╗')
